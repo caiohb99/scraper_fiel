@@ -18,7 +18,7 @@ def verificar_ou_comprar(driver):
                 comprar_text = WebDriverWait(driver, 5).until(
                     EC.presence_of_element_located((By.XPATH, "//p[contains(text(), 'Comprar')]"))
                 )
-                print("Texto 'Comprar' encontrado!")
+                print("Texto 'Comprar' encontrado!!")
                 # Aqui você pode adicionar o código para clicar no botão de compra, se necessário
                 break  # Sai do loop se o texto foi encontrado
 
